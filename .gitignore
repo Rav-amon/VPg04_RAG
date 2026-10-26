@@ -1,0 +1,30 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Виртуальное окружение и пакеты
+venv/
+.venv/
+env/
+
+# Байткод Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Тесты и покрытие
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Логи
+*.log
+
+# Редакторы и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
